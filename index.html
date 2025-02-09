@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الفاخر</title>
+    <style>
+        /* تنسيق الصفحة بالكامل */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1b1b1b;
+            color: white;
+            text-align: center;
+        }
+
+        /* شريط العنوان */
+        .navbar {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        }
+        
+        .navbar h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        /* قسم الهيدر */
+        .header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: url('https://source.unsplash.com/1600x900/?luxury') center/cover no-repeat;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        .header p {
+            font-size: 20px;
+            opacity: 0.8;
+        }
+
+        /* زر أنيق */
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: #e50914;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ff1e33;
+        }
+
+        /* قسم عن الموقع */
+        .about {
+            padding: 50px 20px;
+            background: #222;
+        }
+
+        .about h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            font-size: 18px;
+            opacity: 0.8;
+        }
+
+        /* قسم عن المصمم */
+        .designer {
+            background: #333;
+            padding: 30px;
+            color: white;
+        }
+
+        .designer h2 {
+            font-size: 28px;
+        }
+
+        .designer a {
+            color: #ff4757;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .designer a:hover {
+            color: #ff6b81;
+        }
+
+        /* الفوتر */
+        .footer {
+            background: #111;
+            padding: 20px;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+
+        /* توقيع متحرك في الزاوية */
+        .signature {
+            position: fixed;
+            bottom: 10px;
+            right: 15px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            color: white;
+            animation: fadeIn 2s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- شريط العنوان -->
+    <div class="navbar">
+        <h1>موقعي الفاخر</h1>
+    </div>
+
+    <!-- قسم الهيدر -->
+    <div class="header">
+        <h1>مرحبًا بك في عالمي</h1>
+        <p>موقع عصري بتصميم فاخر</p>
+        <a href="https://www.instagram.com/اسم_حسابك" class="btn" target="_blank">تابعني على إنستقرام</a>
+    </div>
+
+    <!-- قسم عن الموقع -->
+    <div class="about">
+        <h2>من نحن؟</h2>
+        <p>نحن نقدم لك أفضل تجربة ويب بتصميم حديث وسهل الاستخدام.</p>
+    </div>
+
+    <!-- قسم عن المصمم -->
+    <div class="designer">
+        <h2>👨‍💻 عن المصمم</h2>
+        <p>أنا <strong>أيوب</strong>، مطور ويب مهتم بإنشاء مواقع احترافية بتصاميم حديثة وعصرية.</p>
+        <p>📩 تواصل معي على <a href="https://www.instagram.com/اسم_حسابك" target="_blank">إنستقرام</a></p>
+    </div>
+
+    <!-- الفوتر -->
+    <div class="footer">
+        <p>© 2025 جميع الحقوق محفوظة - موقعي الفاخر</p>
+        <p>🚀 تم التصميم بواسطة <strong>أيوب</strong></p>
+    </div>
+
+    <!-- توقيع متحرك -->
+    <div class="signature">🚀 صممه أيوب</div>
+
+</body>
+</html>
